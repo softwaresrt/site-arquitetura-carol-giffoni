@@ -27,5 +27,5 @@ export const siteConfig = {
     {title:'Consultoria de ambientes',detail:'Um olhar atento para escolhas que definem a personalidade dos espaços.'},
   ],
 } as const;
-export const whatsAppLink = (message = siteConfig.whatsappMessage) =>
+export const whatsAppLink = (message: string = siteConfig.whatsappMessage) =>
   `https://wa.me/${siteConfig.whatsappNumber.replace(/\D/g,'')}?text=${encodeURIComponent(message)}`;

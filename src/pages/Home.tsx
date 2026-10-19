@@ -1,6 +1,6 @@
 import {useEffect,useRef,useState} from 'react';
 import {Link} from 'react-router-dom';
-import {ArrowDown,ArrowDownRight,ArrowRight,ArrowUpRight,MoveUpRight} from 'lucide-react';
+import {ArrowDown,ArrowDownRight,ArrowRight,ArrowUpRight,MoveUpRight,Plus} from 'lucide-react';
 import gsap from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import {motion} from 'framer-motion';
